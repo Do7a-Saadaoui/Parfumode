@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- remixixon for position icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- website icon -->
+    <link rel="website icon" type="png" href="logo.jpg">
+    <!-- website title -->
+    <title>Parfumode - Parfumerie de Luxe</title>
+    <style>
+        /* Style Général */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+    
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #000;
+        }
+    
+        header .logo h1 {
+            color: #be9ba8;
+        }
+    
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+    
+        header nav ul li {
+            margin-left: 20px;
+        }
+    
+        header nav ul li a {
+            text-decoration: none;
+            color: #be9ba8;
+            font-weight: bold;
+        }
+    
+        /* Product Section */
+        #products {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #000000;
+        }
+    
+        .product {
+            display: inline-block;
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .product:hover {
+            transform: scale(1.05);
+        }
+    
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    
+        .product h3 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #222;
+        }
+    
+        .product p {
+            font-size: 16px;
+            color: #9c9c9c;
+        }
+    
+        .product h3 {
+            color: #be9ba8;
+            margin: 10px 0;
+        }
+    
+        .product button {
+            background-color: #be9ba8;
+            border: none;
+            color: #000;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    
+        .product-card {
+            background-color: #222;
+            padding: 20px;
+            width: 200px;
+            border-radius: 10px;
+        }
+    
+        /* About Section */
+        .about {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #333;
+        }
+    
+        .about h3 {
+            color: #be9ba8;
+            margin-bottom: 20px;
+        }
+    
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 50px 0;
+        }
+    
+        .contact form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+    
+        .contact button {
+            background-color: #be9ba8;
+            border: none;
+            color: #000;
+            padding: 15px 30px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    
+        /* Footer */
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 20px;
+        }
+    
+        footer .social-media {
+            margin-bottom: 10px;
+        }
+    
+        footer .social-media i {
+            text-decoration: none;
+            color: #be9ba8;
+            margin: 0 20px;
+        }
+    
+        /* Responsive */
+        @media (max-width: 768px) {
+            header nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .products {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .product-card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+    
+        }
+    
+        IMG {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Parfumode</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Boutique.html">Boutique</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Collection</h2>
+        <div class="product">
+            <img src="dior.webp" alt="Perfume 1">
+            <h3>MISS DIOR </h3>
+            <p>A floral and musky blend for every occasion.</p>
+            <p><strong>Price:</strong> 1,607.00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="zara.jpg" alt="Perfume 2">
+            <h3>WONDER ROSE</h3>
+            <p>Rich and mysterious notes for evening wear.</p>
+            <p><strong>Price:</strong> 1.309,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="LIBRE.jpg" alt="Perfume 3">
+            <h3>yves SAINT LAURENT LIBRE</h3>
+            <p>A fresh, citrus-infused scent perfect.</p>
+            <p><strong>Price:</strong> 1,458 MAD</p>
+            <button>Acheter</button>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="product">
+            <img src="poison.jpg" alt="Perfume 1">
+            <h3> Dior Hypnotic Poison </h3>
+            <p>Un parfum gourmand et mystérieux avec des notes de vanille et d'amande.</p>
+            <p><strong>Price:</strong> 2 100,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="irresistible.jpeg" alt="Perfume 2">
+            <h3>Givenchy Irresistible</h3>
+            <p> Une fragrance pétillante et féminine aux notes de poire et de rose..</p>
+            <p><strong>Price:</strong> 1 560,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="grace.webp" alt="Perfume 3">
+            <h3>Philosophy Amazing Grace</h3>
+            <p>Un parfum doux et propre aux notes de bergamote et de musc.</p>
+            <p><strong>Price:</strong> 1 900,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="product">
+            <img src="j'adore.avif" alt="Perfume 1">
+            <h3>Victoria's secret Bombshell</h3>
+            <p>Un parfum fruité et floral avec des notes de pivoine et de fruit de la passion..</p>
+            <p><strong>Price:</strong> 1 800.00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="L'interdit.jpg" alt="Perfume 2">
+            <h3>Givenchy L'Interdit</h3>
+            <p>Une fragrance élégante et audacieuse aux notes de fleur d'oranger et de patchouli.</p>
+            <p><strong>Price:</strong> 2 000,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="ABSOLU.jpg" alt="Perfume 3">
+            <h3> Yves Saint Laurent Libre Absolu Platine</h3>
+            <p>Une version plus intense du parfum Libre, avec des notes de lavande et de vanille..</p>
+            <p><strong>Price:</strong> 1 699,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="product">
+            <img src="chopard.jpeg" alt="Perfume 1">
+            <h3> Chopard Casmir </h3>
+            <p>Un parfum oriental et chaud aux notes de vanille et de patchouli.</p>
+            <p><strong>Price:</strong> 1 200.00 MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="baccarat.jpg" alt="Perfume 2">
+            <h3> Maison Francis Kurkdjian Baccarat Rouge 540</h3>
+            <p>Un parfum sophistiqué aux notes de jasmin, safran et ambre gris.</p>
+            <p><strong>Price:</strong> 2 750,00  MAD</p>
+            <button>Acheter</button>
+        </div>
+        <div class="product">
+            <img src="burbery.webp" alt="Perfume 3">
+            <h3>My Burbery</h3>
+            <p >Un parfum floral et élégant inspiré des jardins londoniens après la pluie.</p>
+            <p><strong>Price:</strong>1 300,00 MAD</p>
+            <button>Acheter</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h3>À Propos de Parfumode</h3>
+        <p>Parfumode est une marque qui incarne l'élégance et le raffinement. Chaque parfum est créé avec des
+            ingrédients de
+            la plus haute qualité, pour offrir des expériences sensorielles uniques.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h3>Contactez-nous</h3>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nom" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-media">
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-twitter-line"></i>
+        </div>
+        <p>&copy; 2025 Parfumode. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
